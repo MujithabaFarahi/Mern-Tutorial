@@ -108,6 +108,15 @@ h3 {
   background: none;
 }
 
+.goal .edit {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
 .form,
 .content {
   width: 70%;
@@ -148,6 +157,30 @@ h3 {
   appearance: button;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.bttn {
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 2px;
+  background: #000;
+  color: #fff;
+  font-size: 8px;
+  font-weight: 400;
+}
+
+.bttttn {
+  cursor: pointer;
+  text-align: center;
+  appearance: button;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+.center-content {
   justify-content: center;
 }
 
